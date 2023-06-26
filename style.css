@@ -24,6 +24,9 @@ a{
     color: inherit;
 }
 
+
+/* header */
+
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -134,4 +137,40 @@ nav{
 
 .header_left-btn:hover{
     background-color: #881414;
+}
+
+/* main */
+
+.main_menu_title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.main_title{
+    text-align: center;
+    line-height: 43px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.main_img{
+    width: calc(100% - 10px);
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.main_img-bottom{
+    margin-top: 100px;
+}
+
+.main_menu_items{
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
